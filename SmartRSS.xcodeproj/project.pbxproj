@@ -34,6 +34,9 @@
 		42005D8726E108F3006D9E06 /* MainAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8526E108F3006D9E06 /* MainAsync.swift */; };
 		42005D8C26E10ACD006D9E06 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8B26E10ACD006D9E06 /* Loader.swift */; };
 		42005D8D26E10ACD006D9E06 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8B26E10ACD006D9E06 /* Loader.swift */; };
+		42005D9026E11A9C006D9E06 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42005D8F26E11A9C006D9E06 /* FeedKit */; };
+		42005D9226E1206E006D9E06 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D9126E1206E006D9E06 /* WebView.swift */; };
+		42005D9326E1206E006D9E06 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D9126E1206E006D9E06 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,7 @@
 		42005D8226E0E414006D9E06 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		42005D8526E108F3006D9E06 /* MainAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAsync.swift; sourceTree = "<group>"; };
 		42005D8B26E10ACD006D9E06 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		42005D9126E1206E006D9E06 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42005D7B26E0D770006D9E06 /* CloudKit.framework in Frameworks */,
+				42005D9026E11A9C006D9E06 /* FeedKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +117,6 @@
 		42005D2C26E0D3CC006D9E06 = {
 			isa = PBXGroup;
 			children = (
-				42005D7C26E0DC16006D9E06 /* PostView.swift */,
 				42005D7826E0D759006D9E06 /* SmartRSS.entitlements */,
 				42005D3126E0D3CD006D9E06 /* Shared */,
 				42005D4A26E0D3CF006D9E06 /* Tests iOS */,
@@ -125,6 +129,7 @@
 		42005D3126E0D3CD006D9E06 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				42005D7C26E0DC16006D9E06 /* PostView.swift */,
 				42005D3426E0D3CD006D9E06 /* SmartRSSApp.swift */,
 				42005D8226E0E414006D9E06 /* Post.swift */,
 				42005D7226E0D68F006D9E06 /* PostsView.swift */,
@@ -136,6 +141,7 @@
 				42005D3226E0D3CD006D9E06 /* SmartRSS.xcdatamodeld */,
 				42005D8526E108F3006D9E06 /* MainAsync.swift */,
 				42005D8B26E10ACD006D9E06 /* Loader.swift */,
+				42005D9126E1206E006D9E06 /* WebView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -191,6 +197,9 @@
 			dependencies = (
 			);
 			name = "SmartRSS (iOS)";
+			packageProductDependencies = (
+				42005D8F26E11A9C006D9E06 /* FeedKit */,
+			);
 			productName = "SmartRSS (iOS)";
 			productReference = 42005D3C26E0D3CF006D9E06 /* SmartRSS.app */;
 			productType = "com.apple.product-type.application";
@@ -283,6 +292,9 @@
 				Base,
 			);
 			mainGroup = 42005D2C26E0D3CC006D9E06;
+			packageReferences = (
+				42005D8E26E11A9C006D9E06 /* XCRemoteSwiftPackageReference "FeedKit" */,
+			);
 			productRefGroup = 42005D3D26E0D3CF006D9E06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +354,7 @@
 				42005D8326E0E414006D9E06 /* Post.swift in Sources */,
 				42005D8626E108F3006D9E06 /* MainAsync.swift in Sources */,
 				42005D8C26E10ACD006D9E06 /* Loader.swift in Sources */,
+				42005D9226E1206E006D9E06 /* WebView.swift in Sources */,
 				42005D7326E0D68F006D9E06 /* PostsView.swift in Sources */,
 				42005D5B26E0D3CF006D9E06 /* ContentView.swift in Sources */,
 			);
@@ -360,6 +373,7 @@
 				42005D8426E0E414006D9E06 /* Post.swift in Sources */,
 				42005D8726E108F3006D9E06 /* MainAsync.swift in Sources */,
 				42005D8D26E10ACD006D9E06 /* Loader.swift in Sources */,
+				42005D9326E1206E006D9E06 /* WebView.swift in Sources */,
 				42005D7426E0D68F006D9E06 /* PostsView.swift in Sources */,
 				42005D5C26E0D3CF006D9E06 /* ContentView.swift in Sources */,
 			);
@@ -779,6 +793,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42005D8E26E11A9C006D9E06 /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42005D8F26E11A9C006D9E06 /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42005D8E26E11A9C006D9E06 /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		42005D3226E0D3CD006D9E06 /* SmartRSS.xcdatamodeld */ = {

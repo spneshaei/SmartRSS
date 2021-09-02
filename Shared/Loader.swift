@@ -49,7 +49,8 @@ func loadData(from stringURL: String) async throws -> String {
     return try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<String, Error>) in
         do {
             continuation.resume(returning: try String(contentsOf: url))
-        } catch {
+        } catch(let error) {
+            print(error.localizedDescription)
             continuation.resume(throwing: LoaderError.networkError)
         }
     }

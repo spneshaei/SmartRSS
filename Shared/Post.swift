@@ -9,7 +9,6 @@ import Foundation
 
 class Post {
     var title = ""
-    var shortURL = ""
     var publishedDate = Date()
     var content = ""
 }
