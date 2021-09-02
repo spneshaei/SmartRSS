@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42005D4C26E0D3CF006D9E06 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D4B26E0D3CF006D9E06 /* Tests_iOS.swift */; };
+		42005D5626E0D3CF006D9E06 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D5526E0D3CF006D9E06 /* Tests_macOS.swift */; };
+		42005D5726E0D3CF006D9E06 /* SmartRSS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3226E0D3CD006D9E06 /* SmartRSS.xcdatamodeld */; };
+		42005D5826E0D3CF006D9E06 /* SmartRSS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3226E0D3CD006D9E06 /* SmartRSS.xcdatamodeld */; };
+		42005D5926E0D3CF006D9E06 /* SmartRSSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3426E0D3CD006D9E06 /* SmartRSSApp.swift */; };
+		42005D5A26E0D3CF006D9E06 /* SmartRSSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3426E0D3CD006D9E06 /* SmartRSSApp.swift */; };
+		42005D5B26E0D3CF006D9E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3526E0D3CD006D9E06 /* ContentView.swift */; };
+		42005D5C26E0D3CF006D9E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3526E0D3CD006D9E06 /* ContentView.swift */; };
+		42005D5D26E0D3CF006D9E06 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3626E0D3CD006D9E06 /* Persistence.swift */; };
+		42005D5E26E0D3CF006D9E06 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3626E0D3CD006D9E06 /* Persistence.swift */; };
+		42005D5F26E0D3CF006D9E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42005D3726E0D3CF006D9E06 /* Assets.xcassets */; };
+		42005D6026E0D3CF006D9E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42005D3726E0D3CF006D9E06 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42005D4826E0D3CF006D9E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42005D2D26E0D3CC006D9E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42005D3B26E0D3CF006D9E06;
+			remoteInfo = "SmartRSS (iOS)";
+		};
+		42005D5226E0D3CF006D9E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42005D2D26E0D3CC006D9E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42005D4126E0D3CF006D9E06;
+			remoteInfo = "SmartRSS (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42005D3326E0D3CD006D9E06 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		42005D3426E0D3CD006D9E06 /* SmartRSSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartRSSApp.swift; sourceTree = "<group>"; };
+		42005D3526E0D3CD006D9E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42005D3626E0D3CD006D9E06 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		42005D3726E0D3CF006D9E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42005D3C26E0D3CF006D9E06 /* SmartRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42005D4226E0D3CF006D9E06 /* SmartRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42005D4726E0D3CF006D9E06 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42005D4B26E0D3CF006D9E06 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		42005D5126E0D3CF006D9E06 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42005D5526E0D3CF006D9E06 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42005D3926E0D3CF006D9E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D3F26E0D3CF006D9E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D4426E0D3CF006D9E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D4E26E0D3CF006D9E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42005D2C26E0D3CC006D9E06 = {
+			isa = PBXGroup;
+			children = (
+				42005D3126E0D3CD006D9E06 /* Shared */,
+				42005D4A26E0D3CF006D9E06 /* Tests iOS */,
+				42005D5426E0D3CF006D9E06 /* Tests macOS */,
+				42005D3D26E0D3CF006D9E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42005D3126E0D3CD006D9E06 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				42005D3426E0D3CD006D9E06 /* SmartRSSApp.swift */,
+				42005D3526E0D3CD006D9E06 /* ContentView.swift */,
+				42005D3626E0D3CD006D9E06 /* Persistence.swift */,
+				42005D3726E0D3CF006D9E06 /* Assets.xcassets */,
+				42005D3226E0D3CD006D9E06 /* SmartRSS.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		42005D3D26E0D3CF006D9E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42005D3C26E0D3CF006D9E06 /* SmartRSS.app */,
+				42005D4226E0D3CF006D9E06 /* SmartRSS.app */,
+				42005D4726E0D3CF006D9E06 /* Tests iOS.xctest */,
+				42005D5126E0D3CF006D9E06 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42005D4A26E0D3CF006D9E06 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				42005D4B26E0D3CF006D9E06 /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		42005D5426E0D3CF006D9E06 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				42005D5526E0D3CF006D9E06 /* Tests_macOS.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42005D3B26E0D3CF006D9E06 /* SmartRSS (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42005D6326E0D3CF006D9E06 /* Build configuration list for PBXNativeTarget "SmartRSS (iOS)" */;
+			buildPhases = (
+				42005D3826E0D3CF006D9E06 /* Sources */,
+				42005D3926E0D3CF006D9E06 /* Frameworks */,
+				42005D3A26E0D3CF006D9E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartRSS (iOS)";
+			productName = "SmartRSS (iOS)";
+			productReference = 42005D3C26E0D3CF006D9E06 /* SmartRSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42005D4126E0D3CF006D9E06 /* SmartRSS (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42005D6626E0D3CF006D9E06 /* Build configuration list for PBXNativeTarget "SmartRSS (macOS)" */;
+			buildPhases = (
+				42005D3E26E0D3CF006D9E06 /* Sources */,
+				42005D3F26E0D3CF006D9E06 /* Frameworks */,
+				42005D4026E0D3CF006D9E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartRSS (macOS)";
+			productName = "SmartRSS (macOS)";
+			productReference = 42005D4226E0D3CF006D9E06 /* SmartRSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42005D4626E0D3CF006D9E06 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42005D6926E0D3CF006D9E06 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				42005D4326E0D3CF006D9E06 /* Sources */,
+				42005D4426E0D3CF006D9E06 /* Frameworks */,
+				42005D4526E0D3CF006D9E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42005D4926E0D3CF006D9E06 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 42005D4726E0D3CF006D9E06 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		42005D5026E0D3CF006D9E06 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42005D6C26E0D3CF006D9E06 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				42005D4D26E0D3CF006D9E06 /* Sources */,
+				42005D4E26E0D3CF006D9E06 /* Frameworks */,
+				42005D4F26E0D3CF006D9E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42005D5326E0D3CF006D9E06 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 42005D5126E0D3CF006D9E06 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42005D2D26E0D3CC006D9E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					42005D3B26E0D3CF006D9E06 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					42005D4126E0D3CF006D9E06 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					42005D4626E0D3CF006D9E06 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 42005D3B26E0D3CF006D9E06;
+					};
+					42005D5026E0D3CF006D9E06 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 42005D4126E0D3CF006D9E06;
+					};
+				};
+			};
+			buildConfigurationList = 42005D3026E0D3CC006D9E06 /* Build configuration list for PBXProject "SmartRSS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42005D2C26E0D3CC006D9E06;
+			productRefGroup = 42005D3D26E0D3CF006D9E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42005D3B26E0D3CF006D9E06 /* SmartRSS (iOS) */,
+				42005D4126E0D3CF006D9E06 /* SmartRSS (macOS) */,
+				42005D4626E0D3CF006D9E06 /* Tests iOS */,
+				42005D5026E0D3CF006D9E06 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42005D3A26E0D3CF006D9E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42005D5F26E0D3CF006D9E06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D4026E0D3CF006D9E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42005D6026E0D3CF006D9E06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D4526E0D3CF006D9E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D4F26E0D3CF006D9E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42005D3826E0D3CF006D9E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42005D5926E0D3CF006D9E06 /* SmartRSSApp.swift in Sources */,
+				42005D5D26E0D3CF006D9E06 /* Persistence.swift in Sources */,
+				42005D5726E0D3CF006D9E06 /* SmartRSS.xcdatamodeld in Sources */,
+				42005D5B26E0D3CF006D9E06 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D3E26E0D3CF006D9E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42005D5A26E0D3CF006D9E06 /* SmartRSSApp.swift in Sources */,
+				42005D5E26E0D3CF006D9E06 /* Persistence.swift in Sources */,
+				42005D5826E0D3CF006D9E06 /* SmartRSS.xcdatamodeld in Sources */,
+				42005D5C26E0D3CF006D9E06 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D4326E0D3CF006D9E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42005D4C26E0D3CF006D9E06 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42005D4D26E0D3CF006D9E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42005D5626E0D3CF006D9E06 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42005D4926E0D3CF006D9E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42005D3B26E0D3CF006D9E06 /* SmartRSS (iOS) */;
+			targetProxy = 42005D4826E0D3CF006D9E06 /* PBXContainerItemProxy */;
+		};
+		42005D5326E0D3CF006D9E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42005D4126E0D3CF006D9E06 /* SmartRSS (macOS) */;
+			targetProxy = 42005D5226E0D3CF006D9E06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42005D6126E0D3CF006D9E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42005D6226E0D3CF006D9E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		42005D6426E0D3CF006D9E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.SmartRSS;
+				PRODUCT_NAME = SmartRSS;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42005D6526E0D3CF006D9E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.SmartRSS;
+				PRODUCT_NAME = SmartRSS;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42005D6726E0D3CF006D9E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.SmartRSS;
+				PRODUCT_NAME = SmartRSS;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		42005D6826E0D3CF006D9E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.SmartRSS;
+				PRODUCT_NAME = SmartRSS;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		42005D6A26E0D3CF006D9E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SmartRSS (iOS)";
+			};
+			name = Debug;
+		};
+		42005D6B26E0D3CF006D9E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SmartRSS (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42005D6D26E0D3CF006D9E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SmartRSS (macOS)";
+			};
+			name = Debug;
+		};
+		42005D6E26E0D3CF006D9E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SmartRSS (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42005D3026E0D3CC006D9E06 /* Build configuration list for PBXProject "SmartRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42005D6126E0D3CF006D9E06 /* Debug */,
+				42005D6226E0D3CF006D9E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42005D6326E0D3CF006D9E06 /* Build configuration list for PBXNativeTarget "SmartRSS (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42005D6426E0D3CF006D9E06 /* Debug */,
+				42005D6526E0D3CF006D9E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42005D6626E0D3CF006D9E06 /* Build configuration list for PBXNativeTarget "SmartRSS (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42005D6726E0D3CF006D9E06 /* Debug */,
+				42005D6826E0D3CF006D9E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42005D6926E0D3CF006D9E06 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42005D6A26E0D3CF006D9E06 /* Debug */,
+				42005D6B26E0D3CF006D9E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42005D6C26E0D3CF006D9E06 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42005D6D26E0D3CF006D9E06 /* Debug */,
+				42005D6E26E0D3CF006D9E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42005D3226E0D3CD006D9E06 /* SmartRSS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42005D3326E0D3CD006D9E06 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 42005D3326E0D3CD006D9E06 /* Shared.xcdatamodel */;
+			path = SmartRSS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42005D2D26E0D3CC006D9E06 /* Project object */;
+}
