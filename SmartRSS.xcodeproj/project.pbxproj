@@ -19,6 +19,21 @@
 		42005D5E26E0D3CF006D9E06 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D3626E0D3CD006D9E06 /* Persistence.swift */; };
 		42005D5F26E0D3CF006D9E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42005D3726E0D3CF006D9E06 /* Assets.xcassets */; };
 		42005D6026E0D3CF006D9E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42005D3726E0D3CF006D9E06 /* Assets.xcassets */; };
+		42005D7326E0D68F006D9E06 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D7226E0D68F006D9E06 /* PostsView.swift */; };
+		42005D7426E0D68F006D9E06 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D7226E0D68F006D9E06 /* PostsView.swift */; };
+		42005D7626E0D69D006D9E06 /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D7526E0D69D006D9E06 /* SourcesView.swift */; };
+		42005D7726E0D69D006D9E06 /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D7526E0D69D006D9E06 /* SourcesView.swift */; };
+		42005D7B26E0D770006D9E06 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42005D7A26E0D770006D9E06 /* CloudKit.framework */; };
+		42005D7D26E0DC16006D9E06 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D7C26E0DC16006D9E06 /* PostView.swift */; };
+		42005D7E26E0DC16006D9E06 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D7C26E0DC16006D9E06 /* PostView.swift */; };
+		42005D8026E0DDD4006D9E06 /* AddSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D7F26E0DDD4006D9E06 /* AddSourceView.swift */; };
+		42005D8126E0DDD4006D9E06 /* AddSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D7F26E0DDD4006D9E06 /* AddSourceView.swift */; };
+		42005D8326E0E414006D9E06 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8226E0E414006D9E06 /* Post.swift */; };
+		42005D8426E0E414006D9E06 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8226E0E414006D9E06 /* Post.swift */; };
+		42005D8626E108F3006D9E06 /* MainAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8526E108F3006D9E06 /* MainAsync.swift */; };
+		42005D8726E108F3006D9E06 /* MainAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8526E108F3006D9E06 /* MainAsync.swift */; };
+		42005D8C26E10ACD006D9E06 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8B26E10ACD006D9E06 /* Loader.swift */; };
+		42005D8D26E10ACD006D9E06 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005D8B26E10ACD006D9E06 /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +65,15 @@
 		42005D4B26E0D3CF006D9E06 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		42005D5126E0D3CF006D9E06 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42005D5526E0D3CF006D9E06 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		42005D7226E0D68F006D9E06 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		42005D7526E0D69D006D9E06 /* SourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesView.swift; sourceTree = "<group>"; };
+		42005D7826E0D759006D9E06 /* SmartRSS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartRSS.entitlements; sourceTree = "<group>"; };
+		42005D7A26E0D770006D9E06 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		42005D7C26E0DC16006D9E06 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		42005D7F26E0DDD4006D9E06 /* AddSourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSourceView.swift; sourceTree = "<group>"; };
+		42005D8226E0E414006D9E06 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		42005D8526E108F3006D9E06 /* MainAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAsync.swift; sourceTree = "<group>"; };
+		42005D8B26E10ACD006D9E06 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42005D7B26E0D770006D9E06 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +112,13 @@
 		42005D2C26E0D3CC006D9E06 = {
 			isa = PBXGroup;
 			children = (
+				42005D7C26E0DC16006D9E06 /* PostView.swift */,
+				42005D7826E0D759006D9E06 /* SmartRSS.entitlements */,
 				42005D3126E0D3CD006D9E06 /* Shared */,
 				42005D4A26E0D3CF006D9E06 /* Tests iOS */,
 				42005D5426E0D3CF006D9E06 /* Tests macOS */,
 				42005D3D26E0D3CF006D9E06 /* Products */,
+				42005D7926E0D770006D9E06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +126,16 @@
 			isa = PBXGroup;
 			children = (
 				42005D3426E0D3CD006D9E06 /* SmartRSSApp.swift */,
+				42005D8226E0E414006D9E06 /* Post.swift */,
+				42005D7226E0D68F006D9E06 /* PostsView.swift */,
+				42005D7526E0D69D006D9E06 /* SourcesView.swift */,
+				42005D7F26E0DDD4006D9E06 /* AddSourceView.swift */,
 				42005D3526E0D3CD006D9E06 /* ContentView.swift */,
 				42005D3626E0D3CD006D9E06 /* Persistence.swift */,
 				42005D3726E0D3CF006D9E06 /* Assets.xcassets */,
 				42005D3226E0D3CD006D9E06 /* SmartRSS.xcdatamodeld */,
+				42005D8526E108F3006D9E06 /* MainAsync.swift */,
+				42005D8B26E10ACD006D9E06 /* Loader.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -131,6 +165,14 @@
 				42005D5526E0D3CF006D9E06 /* Tests_macOS.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		42005D7926E0D770006D9E06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42005D7A26E0D770006D9E06 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,9 +333,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42005D7D26E0DC16006D9E06 /* PostView.swift in Sources */,
 				42005D5926E0D3CF006D9E06 /* SmartRSSApp.swift in Sources */,
 				42005D5D26E0D3CF006D9E06 /* Persistence.swift in Sources */,
+				42005D8026E0DDD4006D9E06 /* AddSourceView.swift in Sources */,
 				42005D5726E0D3CF006D9E06 /* SmartRSS.xcdatamodeld in Sources */,
+				42005D7626E0D69D006D9E06 /* SourcesView.swift in Sources */,
+				42005D8326E0E414006D9E06 /* Post.swift in Sources */,
+				42005D8626E108F3006D9E06 /* MainAsync.swift in Sources */,
+				42005D8C26E10ACD006D9E06 /* Loader.swift in Sources */,
+				42005D7326E0D68F006D9E06 /* PostsView.swift in Sources */,
 				42005D5B26E0D3CF006D9E06 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,9 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42005D7E26E0DC16006D9E06 /* PostView.swift in Sources */,
 				42005D5A26E0D3CF006D9E06 /* SmartRSSApp.swift in Sources */,
 				42005D5E26E0D3CF006D9E06 /* Persistence.swift in Sources */,
+				42005D8126E0DDD4006D9E06 /* AddSourceView.swift in Sources */,
 				42005D5826E0D3CF006D9E06 /* SmartRSS.xcdatamodeld in Sources */,
+				42005D7726E0D69D006D9E06 /* SourcesView.swift in Sources */,
+				42005D8426E0E414006D9E06 /* Post.swift in Sources */,
+				42005D8726E108F3006D9E06 /* MainAsync.swift in Sources */,
+				42005D8D26E10ACD006D9E06 /* Loader.swift in Sources */,
+				42005D7426E0D68F006D9E06 /* PostsView.swift in Sources */,
 				42005D5C26E0D3CF006D9E06 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartRSS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44TVYQ8RAX;
@@ -467,7 +524,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,6 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartRSS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44TVYQ8RAX;
@@ -497,7 +555,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
